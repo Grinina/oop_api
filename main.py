@@ -56,7 +56,7 @@ class YaUploader:
         response.raise_for_status()
         if response.status_code == 201:
             print("Success")
-TOKEN = 'y0_AgAAAABeP4fBAADLWwAAAADm_EAZPxPIXxs2SDKnKq33cmyFdh3-XH8'
+TOKEN = ''
 if __name__ == '__main__':
     uploader = YaUploader(token=TOKEN)
     path_to_file = os.path.join(os.getcwd(), 'test.txt')
